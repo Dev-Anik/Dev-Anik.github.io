@@ -1,0 +1,305 @@
+body{
+margin: 0;
+padding: 0;
+}
+h3{
+    /* font-family: 'Cormorant', serif; */
+    font-size: 1.8rem;
+    color: #45b29a;
+}
+p{
+    
+font-size: 1.3rem;
+    
+color: #000000;
+    
+/* letter-spacing: 0px; */
+    
+line-height: 27px;
+    
+margin-top: -6px;
+    
+/* font-family: 'Cormorant', serif; */
+    
+/* font-weight: 600; */
+}
+.navbar{
+    background-color: #caf7e340;
+    display: flex;
+    justify-content:space-between;
+    margin: 0;
+    padding:0;
+    align-items: center;  
+}
+
+.navbar img{
+    height: 65px;
+    width: 65px;
+    margin-left:200px;
+    margin-top: 40px;
+
+}
+.navbar ul{
+    margin-right: 200px;
+    margin-top: 40px;
+}
+.navbar li{font-family: 'Cormorant', serif;list-style-type: none;display: inline-block;margin-right: 30px;font-size: 1.5rem;padding:0;}
+a{
+    text-decoration: none;
+    color: #45b29a;
+} 
+/*------------------------------------------------navbar-----------------------------------------*/
+
+/*------------------------------------------------banner----------------------------------------*/
+.banner{
+background-color: #caf7e340;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+.banner h1{
+    margin: 0;
+    padding-top: 5%;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #45b29a;
+}
+.banner h4{
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    margin: 0;
+    margin-top:-10px;
+    color: #45b29a;
+}
+.scene{
+
+}
+.cloud1{height: 100px;width: 100px;position: absolute;left: 140px;opacity: 0.5;}
+.cloud2{height: 100px;width: 100px;position: absolute;top: 296px;opacity: 0.5;right: 323px;}
+.cloud3{height: 100px;width: 100px;position: absolute;left: 320px;top: 161px;opacity: 0.5;}
+.sun{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 152px;
+    opacity: .5;
+}
+.about{
+text-align: center;
+}
+.about img{
+    margin-right: 8px;
+    height: 160px;
+    width: 160px;
+    margin-top: 87px;
+    margin-bottom: -7px;
+}
+hr{
+    border-style: dotted;
+    border-top-style: none;
+    border-width: 7px;
+    margin-top: 100px;
+    width: 4%;
+    border-color: #6f6f7163;
+    margin-bottom: 100px;
+
+}
+/*------------------------------------------------banner----------------------------------------*/
+.education{
+    
+text-align: center;
+}
+.education h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #45b29a;
+    margin-top: -38px;
+    /* margin-bottom: 0px; */
+}
+.box{
+    margin: 84px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.box h4{
+    color: #45b29a;
+    font-size: small;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 27px;
+}
+.box p{
+        font-size: 1.2rem;
+        margin-top: -3px;
+        /* font-family: 'Cormorant', serif; */
+        color: #000000;
+}
+.school{
+    height: 350px;
+    width: 450px;
+    background-color: #f2fdf8;
+    margin-right: 64px;
+    border-radius: 30px;
+    box-shadow: -5px 8px 19px -7px #0202021c;
+}
+.school img{
+    height: 150px;
+    width: 150px;
+    margin-top: 45px;
+
+}
+.college{
+    height: 350px;
+    width: 450px;
+    background-color: #f2fdf8;
+    margin-right: 64px;
+    border-radius: 30px;
+    box-shadow: -5px 8px 19px -7px #0202021c;
+       }
+
+.college img{
+    height: 150px;
+    width: 150px;
+    margin-top: 45px;
+}
+.uni{
+    height: 350px;
+    width: 450px;
+    background-color: #f2fdf8;
+    border-radius: 30px;
+    box-shadow: -5px 8px 19px -7px #0202021c;
+}
+.uni img{
+    height: 150px;
+    width: 150px;
+    margin-top: 45px;
+}
+
+/*------------------------------------------------education----------------------------------------*/
+
+/*------------------------------------------------what i can do----------------------------------------*/
+.ability{
+    text-align: center;
+    margin-top: -22px;
+}
+.ability h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #45b29a;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.box{
+    
+}
+.design{
+    display: flex;
+    margin-top: -35px;
+    margin-right: 270px;
+    margin-left: 243px;
+    border-radius: 30px;
+    background-color: #f2fdf8; 
+    box-shadow: -5px 8px 19px -7px #0202021c;
+}
+.image img{
+  height: 150px;
+  width: 150px;
+  margin-left: 94px;
+  margin-top: 17px;
+}  
+.details{
+        margin-left: 155px;
+    text-align: left; }
+.details p{
+    
+}
+/*------------------------------------------------what i can do----------------------------------------*/
+.design1{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 270px;
+    margin-left: 243px;
+    border-radius: 30px;
+    background-color: #f2fdf8; 
+    box-shadow: -5px 8px 19px -7px #0202021c;
+}
+.image1 img{
+  height: 150px;
+  width: 150px;
+  margin-left: 155px;
+  margin-top: 17px;
+}  
+.details1{
+        margin-left: 94px;
+    text-align: left; }
+.details1 p{
+    
+}
+/*------------------------------------------------contact me----------------------------------------*/
+.contact{
+    text-align: center;
+    margin-top: -22px;
+}
+.cm h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #45b29a;
+    margin-top: -38px;
+    /* margin-bottom: 0px; */
+}
+.myButton {
+    background-color:#35944f;
+    border-radius:17px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 9px #2f6627;
+    margin-top: 39px;
+}
+.myButton:hover {
+    background-color:#167840;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+.footer{
+    background-color:#f2fdf8; 
+}
+.foot{
+    margin-right: 300px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.foot h3{
+
+font-size: 1.1rem;
+
+letter-spacing: 1.1px;
+}
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+}
+.foot2 h3{
+    
+letter-spacing: 0px;
+    
+margin-right: 12px;
+}
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+body{
+	text-align: center;
+}
+h1{
+    margin: 0;
+    padding-top: 5%;
+    font-size: 5rem;
+    color: #45b29a;
+}
+h3{
+    /* font-family: 'Cormorant', serif; */
+    font-size: 1.8rem;
+    color: #45b29a;
+}
